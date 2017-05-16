@@ -51,9 +51,7 @@
 
 		<!-- manuscript dependency versions -->
 		<validation.version>0.0.1-SNAPSHOT</validation.version>
-		<manuscript-security-general.version>0.0.1-SNAPSHOT</manuscript-security-general.version>
-		<manuscript-security-dao-mysql.version>0.0.1-SNAPSHOT</manuscript-security-dao-mysql.version>
-		<manuscript-security-service.version>0.0.1-SNAPSHOT</manuscript-security-service.version>
+		
 		<manuscript-test.version>0.0.1-SNAPSHOT</manuscript-test.version>
 	</properties>
 
@@ -306,21 +304,6 @@
 				<version>${validation.version}</version>
 			</dependency>
 
-			<dependency>
-				<groupId>manuscript.framework.security</groupId>
-				<artifactId>manuscript-security-general</artifactId>
-				<version>${manuscript-security-general.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>manuscript.framework.security</groupId>
-				<artifactId>manuscript-security-dao-mysql</artifactId>
-				<version>${manuscript-security-dao-mysql.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>manuscript.framework.security</groupId>
-				<artifactId>manuscript-security-service</artifactId>
-				<version>${manuscript-security-service.version}</version>
-			</dependency>
 			<dependency>
 				<groupId>manuscript.test</groupId>
 				<artifactId>manuscript-test</artifactId>

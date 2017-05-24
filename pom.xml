@@ -382,12 +382,12 @@
 								<extension>true</extension>
 								<removeOldOutput>true</removeOldOutput>
 								<args>
-									<!-- <arg>-XtoString-toStringStrategyClass=com.acme.foo.MyToStringStrategy</arg> -->
+									<arg>-XtoString</arg>
 									<!-- <arg>-no-header</arg> -->
 									<!-- <arg>-XReplacePrimitives</arg> -->
 									<arg>-XJsr303Annotations</arg>
 									<!-- <arg>-XJsr303Annotations:targetNamespace=a</arg> -->
-									<!-- <arg>-XhashCode</arg> -->
+									<arg>-XhashCode</arg>
 									<!-- <arg>-Xequals</arg> -->
 									<arg>-Xsetters</arg>
 								</args>

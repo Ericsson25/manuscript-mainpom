@@ -51,7 +51,7 @@
 
 		<!-- manuscript dependency versions -->
 		<validation.version>0.0.1-SNAPSHOT</validation.version>
-		
+
 		<manuscript-test.version>0.0.1-SNAPSHOT</manuscript-test.version>
 	</properties>
 
@@ -365,8 +365,6 @@
 
 		<pluginManagement>
 			<plugins>
-
-
 				<plugin>
 					<groupId>org.jvnet.jaxb2.maven2</groupId>
 					<artifactId>maven-jaxb2-plugin</artifactId>
@@ -381,6 +379,8 @@
 								<generateDirectory>${project.basedir}/src/generated</generateDirectory>
 								<extension>true</extension>
 								<removeOldOutput>true</removeOldOutput>
+								<useDependenciesAsEpisodes>true</useDependenciesAsEpisodes>
+								<scanDependenciesForBindings>true</scanDependenciesForBindings>
 								<args>
 									<arg>-XtoString</arg>
 									<!-- <arg>-no-header</arg> -->
